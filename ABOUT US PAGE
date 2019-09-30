@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body
+        {
+            width: 1080px;
+            height: 720px;
+        }
+
+        .bg
+        {
+            background-color:black;
+            width: 1080px;
+            height: 620px;
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div id="banner" style="background-color:#E18282;color:white;height:100px;text-align:center">
+
+    <div style="float:left; width: 10%; height:100px; display: inline-block;">
+        <a href="blank.html">
+            <img src="./pictures/back.png" style="width: 100px; height:100px">
+        </a>
+    </div>
+
+    <div style="float:left;clear: true; margin-top:0; margin-bottom:0; display:inline-block; height:100px; width:30%px">
+        <img src="./pictures/WCC1792_DriverEd_Logo_RGB.png" style="height:90px; margin-top:5px;">
+    </div>
+
+    <div style="float:left; width: 60%; height:100px; display:inline-block;">
+        <t style="font-size:35pt; display:inline-block; clear:true">
+            About Us
+        </t>
+    </div>
+
+    <div style="float: right; width:10%; height:100px; display: inline-block">
+        <a href="blank.html">
+            <img src="./pictures/menu.png" style="width: 100px; height:100px">
+        </a>
+    </div>
+
+</div>
+
+<div class="bg">
+
+    <div style="width: 1080px; height: 520px; margin-top: 0; display: inline-block; color: white;">
+        <h2>information about us...</h2>
+    </div>
+
+
+</div>
+
+
+
+</body>
+</html>
