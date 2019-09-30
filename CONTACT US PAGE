@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+
+    <style>
+        body
+        {
+            width: 1080px;
+            height: 720px;
+        }
+
+        .bg
+        {
+            background-image: url("./pictures/background.png");
+            width: 1080px;
+            height: 620px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+
+
+<body>
+<div id="banner" style="background-color:#E18282;color:white;height:100px;text-align:center">
+
+    <div style="float:left; width: 10%; height:100px; display: inline-block;">
+        <a href="blank.html">
+            <img src="./pictures/back.png" style="width: 100px; height:100px">
+        </a>
+    </div>
+
+    <div style="float:left;clear: true; margin-top:0; margin-bottom:0; display:inline-block; height:100px; width:30%px">
+        <img src="./pictures/WCC1792_DriverEd_Logo_RGB.png" style="height:90px; margin-top:5px;">
+    </div>
+
+    <div style="float:left; width: 60%; height:100px; display:inline-block;">
+        <t style="font-size:35pt; display:inline-block; clear:true">
+            Contact Us
+        </t>
+    </div>
+
+    <div style="float: right; width:10%; height:100px; display: inline-block">
+        <a href="blank.html">
+            <img src="./pictures/menu.png" style="width: 100px; height:100px">
+        </a>
+    </div>
+
+</div>
+
+<div class="bg">
+    <div id="left" style="float:left; width:33.3%;height:620px; margin:0; padding:0; display:inline-block">
+        <div style="height:220px; width:100%;">
+        </div>
+        <div>
+            <a href="blank.html" style="text-decoration:none; color: black">
+                <div style="background-color: #F8ADAD; font-size: 20pt;  width:200px; height: 100px; margin: 0 auto; text-align: center; line-height: 100px; ">
+                    Call Us
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <div id="middle" style="float:left; width:33.3%; height:620px;margin:0; padding:0; display:inline-block">
+        <div style="height:220px; width:100%;">
+        </div>
+        <div>
+            <a href="blank.html" style="text-decoration:none; color: black">
+                <div style="background-color: #F8ADAD; font-size: 20pt; width:200px; height: 100px; margin: 0 auto; text-align: center; line-height: 100px;">
+                    Message Us
+                </div>
+            </a>
+
+
+        </div>
+    </div>
+
+    <div id="right" style="float:left; width:33.3%; height:620px;margin:0; padding:0; display:inline-block">
+        <div style="height:220px; width:100%;">
+        </div>
+        <div>
+            <a href="blank.html" style="text-decoration:none; color: black">
+                <div style="background-color: #F8ADAD; font-size: 20pt;  width:200px; height: 100px; margin: 0 auto; text-align: center; line-height: 100px; ">
+                    Write to Us
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+</html>
