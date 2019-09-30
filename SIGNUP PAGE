@@ -1,0 +1,172 @@
+
+<html>
+        <head>
+                <body background="P2.jpg" height ="100%">
+                        <title>Bootstrap Example</title>
+                        <meta charset="utf-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <title>contact</title>
+    
+        <style>
+        
+        h1{
+        color:BLACK;
+        text-align:center;
+        font-family:Georgia;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#E28282;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 15px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color:
+        #D3D3D3;
+        }
+        
+        p.propara{color:red;
+        background-color: white;
+        height:300px;
+        width:600px;
+        float: right-side;
+        font-family:"Comic Sans MS";
+        margin:20px
+        border:4px outset #000000;
+        overflow:scroll;
+        }
+        
+        
+        p.newpara {color:red;
+        background-color:white;
+        border:4px outset #000000;
+        width:500px;
+        padding:5px;
+        float:left
+        
+        }
+        body {
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+        </style>
+        </head>
+     
+        <ul id="nav">
+           
+                <li><a class="active"> <img src="p3.jpg" height="40" weidth="60"></a></li>
+                <center> <li text-align ="center"> <a href="#"> <font size ="6" color=><b>Login In </b></font></a></li>
+           
+              </center>
+              </ul>
+        
+        
+                <script>
+                        function validate() {
+                         var fn=document.getElementById('firstName').value;
+                         var ln=document.getElementById('lastName').value;
+                         var em=document.getElementById('email').value ;
+                         var pn=document.getElementById('bd').value;
+                          var comments=document.getElementById('comments').value; 
+                        
+                         if(fn.length==0){
+                         alert("Please enter First Name");
+                         return false;
+                         }
+                         if(ln.length==0){
+                        alert("please enter your Last Name again");
+                        return false;
+                        }
+                        
+                        if(em.length==0){
+                        alert("please enter your Email again");
+                        return false;
+                        }
+                         var pos=em.indexOf('@deakin.edu.au');
+                                        //alert(pos);
+                                        if (pos==-1){
+                                        alert('provide deakin email');
+                                         return false;
+                                        }
+                        
+                       
+                        
+                        if(bd.length==0){
+                        alert("please enter your birthday ");
+                        return false;
+                        }
+                        
+                               
+                        return true;
+                        }
+                        
+                        
+        
+                        </script>
+                        <body>
+                
+        <br><br>
+        <center><h2 style="color:black"><i>Create an account</i></h2></center>
+        <div style="color:black">
+        
+                
+        
+                        <div class="container">
+                               
+                          <!-- <form action="/action_page.php"> -->
+                            <div class="form-group">
+                                
+                                        
+                                    <form onsubmit='return validate()' action='contact.php' method='get' > 
+                                    <label for="FirstName"> First Name:</label>
+                                    <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name" name="Firstname" value ="">
+                                  </div>
+                                  <div class="form-group">
+                                        <label for="lastName">Last Name:</label>
+                                        <input type="text" class="form-control" id="lastName" placeholder="Enter Last name" name="LastName">
+                                      </div>
+                                      <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="Email">
+                                          </div>
+                                          <div class="form-group">
+                                                <label for="pwd">Birthday:</label>
+                                                <input type="text" class="form-control" id="bd" placeholder="Enter your birthday" name="birthday">
+                                              </div>
+                            <div class="form-group">
+                              <label for="email">Comments</label>
+                              <input type="email" class="form-control" id="comments" placeholder="Enter your comments here!" name="comments">
+                            </div>
+                            
+                            <div class="form-group form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                              </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+                            <button type="submit" class="btn btn-primary">Reset</button>
+                          </form>
+                        </div>
+                        
+                        </body>
+        </html>
