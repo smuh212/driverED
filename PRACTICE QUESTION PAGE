@@ -1,0 +1,161 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+#rcorners1 {
+  border-radius: 50px;
+  background: white;
+  padding: 20px; 
+  width: 700px;
+  height: 80px;  
+}
+
+div {
+  background-color: #ECF784;
+  width: 500px;
+  height:100px;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+#nav li {
+    float: left;
+    text-align:center; }
+    
+
+        /* body {
+  background-image: "10.jpeg";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} */
+            
+        img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+                
+       <link rel="shortcut icon" href="favicon.png">
+        <title>Login Page</title>
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>
+        
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        h1{
+        color:#0f0101;
+        text-align:center;
+        font-family:Georgia;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color:#E28282;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 15px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color:
+        #D3D3D3;
+        }
+        
+        p.propara{color:red;
+        background-color: white;
+        height:300px;
+        width:600px;
+        float: right-side;
+        font-family:"Comic Sans MS";
+        margin:20px;
+        border:4px outset #000000;
+        overflow:scroll;
+        }
+        
+        
+        p.newpara {color:red;
+        background-color:white;
+        border:4px outset #000000;
+        width:500px;
+        padding:5px;
+        float:left
+        
+        
+        }
+        p.c {
+  font-style: oblique;
+}
+
+body {
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+        </style>
+
+</head>
+<!-- background="10.jpeg"  class="vj"-->
+  <body background="P2.jpg">
+        
+        <ul id="nav">
+           
+          <li><a class="active"> <img src="p3.jpg" height="40" weidth="60"></a></li>
+          <center> <li text-align ="center"> <a href="#"> <font size ="6" color=><b>Login In </b></font></a></li>
+          <li><a class="active"> <img src="p4.jpg" height="40" weidth="60"></a></li>
+        
+         <li><a class="active" href="homepage.html"><font size ="6"><b>My Profile</b></font></a></li>
+                <li><a href="contact.html"><font size ="6"><b>Contact us</b></font></a></li>
+                <li><a href="Ssearch.html"><font size ="6"><b>Languages</b></font></a></li>
+                <li><a href="Ssearch.html"><font size ="6"><b>About us</b></font></a></li>
+                <li><a class="active"> <img src="p7.jpg" height="40" weidth="60" align="right-side"></a></li>
+            </center>
+        </ul>
+<br><br>
+
+       
+       <center>
+           
+                    <br>
+              <p id="rcorners1"><font size ="6"> <b>Practice Questions</b></font> </p>
+              <p id="rcorners1"><font size ="6"> <b>Contact DriveEd</b></font> </p>
+              <p id="rcorners1"><font size ="6"> <b>DriveEd/Lessons</b></font> </p>
+              <p id="rcorners1"><font size ="6"> <b>Feedback</b></font> </p>
+              
+              </center>
+</center>
+</body>
+</html>
